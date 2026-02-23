@@ -1,0 +1,45 @@
+.boy , .girl{
+    border:2px solid black;
+    height:230px;
+    width:180px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.girl:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.boy:hover{
+    box-shadow: 5px 5px 10px black;
+}
+img{
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.profile{
+  height:55%;
+  border-radius: 10px;
+}
+
+.name{
+    margin-top: 20px;
+    height: 35px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+.design{
+    margin-left: 5px;
+    font-weight: 200;
+}
+body{
+    background-color:#d4e3df;
+}
+.desc{
+    background-color: cadetblue;
+    height:fit-content;
+}
